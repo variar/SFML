@@ -9,7 +9,7 @@ matrix:
         apt:
           packages:
             - xorg-dev
-            - libudev0
+            - libudev-dev
             - libfreetype6-dev
             - libjpeg-dev
 
