@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0.2)
+cmake_minimum_required(VERSION 3.1.0)
 
 # define a macro that helps defining an option
 macro(sfml_set_option var default type docstring)
@@ -15,6 +15,8 @@ sfml_set_option(CMAKE_BUILD_TYPE Release STRING "Choose the type of build (Debug
 
 # Suppress Cygwin legacy warning
 set(CMAKE_LEGACY_CYGWIN_WIN32 0)
+
+set (CMAKE_CXX_STANDARD 11)
 
 # set Android specific options
 

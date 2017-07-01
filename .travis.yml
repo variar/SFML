@@ -25,6 +25,7 @@ matrix:
 
 install:
   - if [ "$TRAVIS_OS_NAME" == "linux" ]; then export CXX="g++-5"; fi
+  - if [ "$TRAVIS_OS_NAME" == "linux" ]; then export CC="gcc-5"; fi
       
 script:
     - mkdir build
