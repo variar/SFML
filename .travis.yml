@@ -5,6 +5,11 @@ matrix:
   include:
     - os: linux
       compiler: gcc
+      addons:
+        apt:
+          packages:
+            - xorg-dev
+
     - os: osx
       compiler: clang
 
