@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.8.2)
 
 # define a macro that helps defining an option
 macro(sfml_set_option var default type docstring)
@@ -73,6 +73,11 @@ sfml_set_option(SFML_BUILD_DOC FALSE BOOL "TRUE to generate the API documentatio
 
 # add an option for choosing the OpenGL implementation
 sfml_set_option(SFML_OPENGL_ES ${OPENGL_ES} BOOL "TRUE to use an OpenGL ES implementation, FALSE to use a desktop OpenGL implementation")
+
+sfml_set_option(SFML_BUILD_WINDOW TRUE BOOL "TRUE to build Window module, FALSE to ignore it")
+sfml_set_option(SFML_BUILD_GRAPHICS TRUE BOOL "TRUE to build Graphics module, FALSE to ignore it")
+sfml_set_option(SFML_BUILD_NETWORK TRUE BOOL "TRUE to build Network module, FALSE to ignore it")
+sfml_set_option(SFML_BUILD_AUDIO TRUE BOOL "TRUE to build Audio module, FALSE to ignore it")
 
 # Mac OS X specific options
 if(SFML_OS_MACOSX)
