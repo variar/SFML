@@ -10,6 +10,7 @@ matrix:
           packages:
             - xorg-dev
             - libudev-dev
+            - libopenal-dev
             - libfreetype6-dev
             - libjpeg-dev
 
