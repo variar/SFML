@@ -1,6 +1,10 @@
 SFML - Simple and Fast Multimedia Library
 =========================================
 
+[![Build status](https://ci.appveyor.com/api/projects/status/acyxn9g8htn43h1p?svg=true)](https://ci.appveyor.com/project/variar/sfml)
+[![Build Status](https://travis-ci.org/variar/SFML.svg?branch=2.4.2_dev)](https://travis-ci.org/variar/SFML)
+
+
 SFML is a simple, fast, cross-platform and object-oriented multimedia API. It provides access to windowing, graphics, audio and network.
 It is written in C++, and has bindings for various languages such as C, .Net, Ruby, Python.
 
