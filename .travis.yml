@@ -9,6 +9,9 @@ matrix:
         apt:
           packages:
             - xorg-dev
+            - udev
+            - libfreetype6-dev
+            - libjpeg-dev
 
     - os: osx
       compiler: clang
